@@ -1,0 +1,9 @@
+|lesson_2_led_button
+clk => done_press.CLK
+clk => state.CLK
+btn => done_press.OUTPUTSELECT
+btn => done_press.OUTPUTSELECT
+btn => state.ENA
+led <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+

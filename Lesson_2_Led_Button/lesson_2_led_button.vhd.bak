@@ -1,0 +1,10 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY lesson_2_led_button is 
+	port (
+		clk	: in std_logic;
+		btn	: in std_logic;
+		led	: out std_logic
+	);
+end ENTITY;	
